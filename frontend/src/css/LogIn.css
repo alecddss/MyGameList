@@ -1,0 +1,72 @@
+.detail-error {
+    background-color: rgb(243, 157, 157);
+    outline-style:solid;
+    outline-color: rgb(255, 70, 70);
+    width:380px;
+    text-align: center;
+    padding: 5px;
+}
+
+.username {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: white;
+  font-size: 1rem;
+}
+
+.username:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #666;
+}
+
+.password {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: white;
+  font-size: 1rem;
+}
+
+.password:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #666;
+}
+
+.log-in-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: rgb(54, 94, 226);
+  color: white;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+  white-space: nowrap;
+}
+
+.log-in-btn:hover {
+  background-color: rgb(81, 115, 226);
+}
+
+.log-in-form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgba(255, 255, 255, 0.192);
+    border-radius: 15px;
+}
+
+ .no-account, .username-lbl, .password-lbl{
+  color:whitesmoke;
+}
+
+.log-in-title{
+  color: rgb(158, 143, 255);
+}
